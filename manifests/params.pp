@@ -25,7 +25,7 @@ class pureftpd::params {
       $pgsql_conf_path = "${config_dir}/pureftpd-pgsql.conf"
     }
     'Debian': {
-      $package_name         = 'pure-ftpd'
+      $package_name    = 'pure-ftpd'
 
       $config_dir      = '/etc/pure-ftpd'
       $service_name    = 'pure-ftpd'
